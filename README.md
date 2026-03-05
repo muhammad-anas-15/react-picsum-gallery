@@ -1,16 +1,64 @@
-# React + Vite
+# Picsum Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance image gallery application that dynamically fetches and displays visuals from the Lorem Picsum API.
+This project showcases a responsive grid layout with a sleek dark theme and seamless pagination.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Dynamic API Integration:**
+  Fetches real-time image data from the Picsum Photos API.
+- **Custom Pagination:**
+  Functional "Prev" and "Next" buttons to navigate through the image library.
+- **Responsive Photo Grid:**
+  A clean, multi-column layout that adapts to different screen sizes.
+- **Dark Mode UI:**
+  A modern aesthetic designed with a high-contrast black background to make photography pop.
 
-## React Compiler
+## 🖼️ Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Dashboard Screenshot](src/assets/gallery.png)
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* CSS3 (Custom Grid/Flexbox)
+* Picsum Photos API
+
+## 📂 Project Structure
+
+```
+react-picsum-gallery
+│
+├── src
+│   ├── components
+│   │   ├── Gallery.jsx
+│   │   └── Pagination.jsx
+│   ├── App.jsx
+│   └── index.css
+|   └── index.html
+├── public
+├── package.json
+└── README.md
+```
+
+## 🚀 How to Run
+
+1. Clone the repository
+
+```
+git clone https://github.com/muhammad-anas-15/react-picsum-gallery.git
+```
+
+2. Install dependencies
+
+```
+npm install
+```
+
+3. Start the development server
+
+```
+npm start
+```
+
+⭐ If you like this project, feel free to star the repository.
